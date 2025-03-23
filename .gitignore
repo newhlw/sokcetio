@@ -1,0 +1,6 @@
+
+node_modules/
+
+# Ignore frontend files (e.g., public folder)
+frontend/
+package-lock.json
