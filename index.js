@@ -31,8 +31,8 @@ io.on("connection", (socket) => {
   socket.on("join", (code) => {
     socket.join(code);
   });
-  socket.on("chat", ({ room, msg }) => {
-    socket.broadcast.to(room).emit("chat-backend", msg);
+  socket.on("chat", ({ room, msg,name }) => {
+    socket.broadcast.to(room).emit("chat-backend", {msg,name});
   });
  
 });
