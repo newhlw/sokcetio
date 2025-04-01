@@ -4,3 +4,9 @@ node_modules/
 # Ignore frontend files (e.g., public folder)
 frontend/
 package-lock.json
+holo.html
+index.js
+test/index.html
+user/.env
+index.js
+index.js
